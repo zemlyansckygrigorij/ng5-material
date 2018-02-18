@@ -1,0 +1,28 @@
+
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="other()">other</button>
+  <button mat-menu-item (click)="authorization()">authorization</button>
+  <button mat-menu-item (click)="registration()">registration</button>
+  <button mat-menu-item (click)="github()">github</button>
+  <button mat-menu-item (click)="datepicker()">datepicker</button>
+  <button mat-menu-item (click)="timepicker()">timepicker</button>
+</mat-menu>
+
+
+<div id = "other"><app-other></app-other></div>
+
+<div id = "authorization"><app-authorization></app-authorization></div>
+
+
+<div id = "registration"><app-registration></app-registration></div>
+
+
+<div id = "github"><app-github></app-github></div>
+
+
+<div id = "datepicker"><app-datepicker></app-datepicker></div>
+
+
+
+<div id = "timepicker"><app-timepicker></app-timepicker></div>
