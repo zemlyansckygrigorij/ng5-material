@@ -1,4 +1,6 @@
-
+<!--<app-header></app-header>-->
+<header></header>
+<app-cards></app-cards>
 <button mat-button [matMenuTriggerFor]="menu">Menu</button>
 <mat-menu #menu="matMenu">
   <button mat-menu-item (click)="other()">other</button>
@@ -7,6 +9,9 @@
   <button mat-menu-item (click)="github()">github</button>
   <button mat-menu-item (click)="datepicker()">datepicker</button>
   <button mat-menu-item (click)="timepicker()">timepicker</button>
+
+  <button mat-menu-item (click)="steamwork()">timepicker</button>
+  <button mat-menu-item (click)="yandexmoney()">timepicker</button>
 </mat-menu>
 
 
@@ -26,3 +31,7 @@
 
 
 <div id = "timepicker"><app-timepicker></app-timepicker></div>
+
+<div id = "steamwork"><app-steamwork></app-steamwork></div>
+
+  <div id = "yandexmoney"><app-yandexmoney></app-yandexmoney></div>

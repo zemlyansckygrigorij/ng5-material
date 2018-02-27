@@ -14,9 +14,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {DatepickerComponent} from "./datepicker/datepicker.component";
 import {AppTimepicker} from "./timepicker/timepicker.component";
 import {OwlDateTimeModule, OwlNativeDateTimeModule} from "ng-pick-datetime";
-
-
-
+import {MatGridListModule, MatNativeDateModule} from '@angular/material';
+import {SteamworkComponent} from "./steamwork/steamwork.component";
+import {YandexmoneyComponent} from "./yandexmoney/yandexmoney.component";
+import {YandexmoneyService} from "./yandexmoney/yandexmoney.service";
+import {HeaderComponent} from "./header/header.component";
+import {CardsComponent} from './cards/cards.component';
 
 
 @NgModule({
@@ -27,7 +30,11 @@ import {OwlDateTimeModule, OwlNativeDateTimeModule} from "ng-pick-datetime";
     OtherComponent,
     GithubComponent,
     DatepickerComponent,
-    AppTimepicker
+    AppTimepicker,
+    SteamworkComponent,
+    YandexmoneyComponent,
+    HeaderComponent,
+    CardsComponent
 
   ],
   imports: [
@@ -38,7 +45,9 @@ import {OwlDateTimeModule, OwlNativeDateTimeModule} from "ng-pick-datetime";
     HttpModule,
     ReactiveFormsModule,
     OwlDateTimeModule,
-    OwlNativeDateTimeModule
+    MatGridListModule,
+    OwlNativeDateTimeModule,
+    MatNativeDateModule
 
   ],
   providers: [GithubServiceService],

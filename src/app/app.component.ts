@@ -15,8 +15,10 @@ export class AppComponent  implements OnInit
     this.switchDisplay('#registration');
     this.switchDisplay('#github');
     this.switchDisplay('#datepicker');
-
     this.switchDisplay('#timepicker');
+
+    this.switchDisplay('#steamwork');
+     this.switchDisplay('#yandexmoney');
   }
 
   other(){this.switchDisplay('#other')}
@@ -42,7 +44,7 @@ export class AppComponent  implements OnInit
 //  https://coursetro.com/posts/code/113/How-to-Build-an-Angular-5-Material-App
 //  https://material.angular.io/components/select/overview
 // ng g component  datepicker.component
-//  github.component
+//  cards.component
 
 
 // $('.load-screen').removeClass('on');
